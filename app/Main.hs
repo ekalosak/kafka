@@ -1,6 +1,14 @@
 module Main where
 
-import Lib
+import ConsumerExample
+import ProducerExample
 
 main :: IO ()
-main = someFunc
+main = do
+  putStrLn "Running producer example..."
+  runProducerExample
+
+  putStrLn "Running consumer example..."
+  runConsumerExample
+
+  putStrLn "Ok."

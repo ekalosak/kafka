@@ -37,7 +37,8 @@ packages:
 # Dependency packages to be pulled from upstream that are not in the resolver
 # using the same syntax as the packages field.
 # (e.g., acme-missiles-0.3)
-# extra-deps: []
+extra-deps:
+- hw-kafka-client-2.6.0@sha256:f8d20f3b88dee2c798b6b7f1b177a5e54a9aa5f4c1c7c8127847b5a555451cd8
 
 # Override default flag values for local packages and extra-deps
 # flags: {}
