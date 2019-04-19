@@ -1,3 +1,6 @@
 .stack-work/
 kafka.cabal
 *~
+
+*.swp
+*.swo
